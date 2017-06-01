@@ -6,6 +6,6 @@ public static void main(String[] args) {
 }
 
 static{
-	System.out.println("Static block");
+	System.out.println("In Branch Sprint 1");
 }
 }
