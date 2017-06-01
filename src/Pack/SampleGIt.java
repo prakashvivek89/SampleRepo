@@ -6,6 +6,6 @@ public static void main(String[] args) {
 }
 
 static{
-	System.out.println("In Branch Sprint 1");
+	System.out.println("In Branch Sprint 1 in master");
 }
 }
