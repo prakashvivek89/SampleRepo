@@ -7,5 +7,6 @@ public static void main(String[] args) {
 
 static{
 	System.out.println("In Branch Sprint 1 new changes");
+	System.out.println("Create new branch");
 }
 }
