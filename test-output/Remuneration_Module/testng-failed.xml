@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Remuneration_Module]">
+  <parameter name="browser" value="IE"/>
+  <listeners>
+    <listener class-name="helper.AnnotationTransformer"/>
+    <listener class-name="helper.MyTestListenerAdapter"/>
+  </listeners>
+  <test thread-count="5" name="Remuneration_Module_029(failed)">
+    <classes>
+      <class name="testcases.Remuneration_Module">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+          <include name="Remuneration_Module_029"/>
+        </methods>
+      </class> <!-- testcases.Remuneration_Module -->
+    </classes>
+  </test> <!-- Remuneration_Module_029(failed) -->
+</suite> <!-- Failed suite [Remuneration_Module] -->

@@ -1,0 +1,16 @@
+Cart Page
+
+1. A link should be displayed on cart page to navigate back to product lister page or home page so that user can add further products to cart. Its a suggestion
+
+2. Clicking apply coupan button without entering code, refreshes the div twice
+
+3. Removing the product number and clicking the updated button do not display any error message. It should display error message regarding entering a number
+
+4. User is able to click proceed to checkout button even on entering the product count as 0.
+
+
+Checkout address page
+
+1. suggestion : Terms and condition should display a popup containing the content
+
+2. On entering the invalid coupan code, the coupan code text box dispappears. It should not disappear.

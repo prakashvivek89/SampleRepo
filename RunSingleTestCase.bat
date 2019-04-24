@@ -1,0 +1,1 @@
+mvn eclipse:clean eclipse:eclipse install --log-file SingleTestcaseLog.txt

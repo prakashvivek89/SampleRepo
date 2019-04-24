@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login_Module">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="helper.AnnotationTransformer"/>
+    <listener class-name="helper.MyTestListenerAdapter"/>
+  </listeners>
+  <test thread-count="5" name="Login_Module_001">
+    <classes>
+      <class name="testcases.Login_Module">
+        <methods>
+          <include name="Login_Module_001"/>
+        </methods>
+      </class> <!-- testcases.Login_Module -->
+    </classes>
+  </test> <!-- Login_Module_001 -->
+</suite> <!-- Login_Module -->

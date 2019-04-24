@@ -1,0 +1,546 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< KeywordDriven:AdviserKeywordDriven_parallel >-------------
+[INFO] Building AdviserKeywordDriven_Parallel 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.10:clean (default-cli) @ AdviserKeywordDriven_parallel ---
+[INFO] Deleting file: .project
+[INFO] Deleting file: .classpath
+[INFO] Deleting file: .wtpmodules
+[INFO] Deleting directory: .settings
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.10:eclipse (default-cli) > generate-resources @ AdviserKeywordDriven_parallel >>>
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.10:eclipse (default-cli) < generate-resources @ AdviserKeywordDriven_parallel <<<
+[INFO] 
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.10:eclipse (default-cli) @ AdviserKeywordDriven_parallel ---
+[INFO] Using Eclipse Workspace: C:\Vivek\Advisor\New folder
+[WARNING] Workspace defines a VM that does not contain a valid jre/lib/rt.jar: C:\Program Files\Java\jre1.8.0_161
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+[INFO] Wrote settings to C:\Vivek\Advisor\New folder\AdviserFramework_Regression\.settings\org.eclipse.jdt.core.prefs
+[INFO] Wrote Eclipse project for "AdviserKeywordDriven_parallel" to C:\Vivek\Advisor\New folder\AdviserFramework_Regression.
+[INFO] 
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ AdviserKeywordDriven_parallel ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ AdviserKeywordDriven_parallel ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 40 source files to C:\Vivek\Advisor\New folder\AdviserFramework_Regression\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ AdviserKeywordDriven_parallel ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 25 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ AdviserKeywordDriven_parallel ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.21.0:test (default-test) @ AdviserKeywordDriven_parallel ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+[main] INFO helper.DatabaseConnection - connection started
+[main] INFO helper.DatabaseConnection - connection created
+[main] INFO helper.DynamicClassCreator - creating directory: 31 Oct 2018 12-36-38
+[main] INFO helper.DynamicClassCreator - DIR created
+[main] INFO helper.DynamicClassCreator - creating directory: Screenshots
+[main] INFO helper.DynamicClassCreator - DIR created
+[main] INFO helper.DynamicClassCreator - creating directory: Detailed Report
+[main] INFO helper.DynamicClassCreator - DIR created
+[TestNG] [WARN] AnnotationTransformer already set
+[TestNG] [WARN] Ignoring duplicate listener : helper.MyTestListenerAdapter
+[TestNG] [WARN] AnnotationTransformer already set
+[TestNG] [WARN] Ignoring duplicate listener : helper.MyTestListenerAdapter
+[TestNG] [WARN] AnnotationTransformer already set
+[TestNG] [WARN] Ignoring duplicate listener : helper.MyTestListenerAdapter
+[TestNG] [WARN] AnnotationTransformer already set
+[TestNG] [WARN] Ignoring duplicate listener : helper.MyTestListenerAdapter
+[TestNG] [WARN] AnnotationTransformer already set
+[TestNG] [WARN] Ignoring duplicate listener : helper.MyTestListenerAdapter
+[TestNG] [WARN] AnnotationTransformer already set
+[TestNG] [WARN] Ignoring duplicate listener : helper.MyTestListenerAdapter
+[TestNG] [WARN] AnnotationTransformer already set
+[TestNG] [WARN] Ignoring duplicate listener : helper.MyTestListenerAdapter
+[TestNG] [WARN] AnnotationTransformer already set
+[TestNG] [WARN] Ignoring duplicate listener : helper.MyTestListenerAdapter
+[TestNG] [WARN] AnnotationTransformer already set
+[TestNG] [WARN] Ignoring duplicate listener : helper.MyTestListenerAdapter
+[TestNG] [WARN] AnnotationTransformer already set
+[TestNG] [WARN] Ignoring duplicate listener : helper.MyTestListenerAdapter
+[TestNG-suites-1] INFO helper.WebdriverHelper - Suite name : Activities Module           browser name : IE
+[TestNG-suites-4] INFO helper.WebdriverHelper - Suite name : Client Module           browser name : IE
+[TestNG-suites-3] INFO helper.WebdriverHelper - Suite name : ClientSearch Module           browser name : IE
+[TestNG-suites-2] INFO helper.WebdriverHelper - Suite name : AdviceEvent Module           browser name : IE
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+[TestNG-suites-2] INFO helper.WebdriverHelper - launching IE driver
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:36:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 31, 2018 12:36:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 31, 2018 12:36:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 31, 2018 12:36:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:37:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:37:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:37:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 31, 2018 12:37:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-2] INFO helper.WebdriverHelper - launching IE driver
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:37:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 31, 2018 12:37:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+ClientSearch_Module
+Total tests run: 4, Failures: 0, Skips: 0
+===============================================
+
+[TestNG-suites-3] INFO helper.WebdriverHelper - Suite name : Document Module           browser name : IE
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:38:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-2] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:38:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:38:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Document_Module
+Total tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+[TestNG-suites-3] INFO helper.WebdriverHelper - Suite name : Invoice Module           browser name : IE
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:39:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:39:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:39:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:39:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+[TestNG-suites-2] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:40:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 31, 2018 12:40:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:40:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:40:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:41:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:41:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+[TestNG-suites-2] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:41:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 31, 2018 12:41:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:42:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:42:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:42:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:43:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-2] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:43:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:43:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:43:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-2] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:43:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Invoice_Module
+Total tests run: 6, Failures: 1, Skips: 0
+===============================================
+
+[TestNG-suites-3] INFO helper.WebdriverHelper - Suite name : Login Module           browser name : IE
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:44:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:44:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 31, 2018 12:44:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Login_Module
+Total tests run: 2, Failures: 0, Skips: 0
+===============================================
+
+[TestNG-suites-3] INFO helper.WebdriverHelper - Suite name : PolicyValuation Module           browser name : IE
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:45:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-2] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:45:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:45:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-2] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:45:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:46:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:46:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-2] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:46:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:46:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:47:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-2] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:47:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:48:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] ERROR helper.CommonKeywords - C:\Vivek\Advisor\New folder\AdviserFramework_Regression\FileUpload\null (The system cannot find the file specified)
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:48:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-2] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:48:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-2] INFO helper.WebdriverHelper - launching IE driver
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:48:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Oct 31, 2018 12:48:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:49:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] ERROR helper.CommonKeywords - C:\Vivek\Advisor\New folder\AdviserFramework_Regression\FileUpload\null (The system cannot find the file specified)
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:49:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-2] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:49:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:50:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:50:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-2] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:50:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Activities_Module
+Total tests run: 7, Failures: 1, Skips: 0
+===============================================
+
+[TestNG-suites-1] INFO helper.WebdriverHelper - Suite name : Policy Module           browser name : IE
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:51:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+PolicyValuation_Module
+Total tests run: 3, Failures: 1, Skips: 0
+===============================================
+
+[TestNG-suites-3] INFO helper.WebdriverHelper - Suite name : Transactions Module           browser name : IE
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:51:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-2] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:51:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-2] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:52:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:52:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-2] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:53:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:53:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-2] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:54:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:54:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:54:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:55:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-2] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:56:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:56:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:56:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-2] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:57:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:57:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:57:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:57:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:58:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-2] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:58:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:58:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-2] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:59:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:59:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Client_Module
+Total tests run: 11, Failures: 5, Skips: 0
+===============================================
+
+[TestNG-suites-4] INFO helper.WebdriverHelper - Suite name : Workflow Module           browser name : IE
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:59:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-2] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 12:59:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:00:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:01:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:01:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:01:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+AdviceEvent_Module
+Total tests run: 14, Failures: 8, Skips: 0
+===============================================
+
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:02:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:02:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:04:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:04:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:05:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:05:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:05:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:07:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-4] ERROR helper.CommonKeywords - C:\Vivek\Advisor\New folder\AdviserFramework_Regression\FileUpload\null (The system cannot find the file specified)
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:07:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:08:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-4] ERROR helper.CommonKeywords - C:\Vivek\Advisor\New folder\AdviserFramework_Regression\FileUpload\null (The system cannot find the file specified)
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:08:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:09:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-4] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:10:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:11:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Workflow_Module
+Total tests run: 9, Failures: 1, Skips: 0
+===============================================
+
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:11:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:14:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:16:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:16:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:18:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:19:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:21:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:21:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:21:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:23:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:23:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:24:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:25:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:25:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:26:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:26:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:26:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:27:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:28:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-3] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:28:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:29:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:30:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Transactions_Module
+Total tests run: 14, Failures: 1, Skips: 0
+===============================================
+
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:31:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[TestNG-suites-1] INFO helper.WebdriverHelper - launching IE driver
+Oct 31, 2018 1:32:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+===============================================
+Policy_Module
+Total tests run: 21, Failures: 5, Skips: 0
+===============================================
+
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3,621.289 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ AdviserKeywordDriven_parallel ---
+[INFO] Building jar: C:\Vivek\Advisor\New folder\AdviserFramework_Regression\target\AdviserKeywordDriven_parallel-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ AdviserKeywordDriven_parallel ---
+[INFO] Installing C:\Vivek\Advisor\New folder\AdviserFramework_Regression\target\AdviserKeywordDriven_parallel-0.0.1-SNAPSHOT.jar to C:\Users\vivek.prakash\.m2\repository\KeywordDriven\AdviserKeywordDriven_parallel\0.0.1-SNAPSHOT\AdviserKeywordDriven_parallel-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Vivek\Advisor\New folder\AdviserFramework_Regression\pom.xml to C:\Users\vivek.prakash\.m2\repository\KeywordDriven\AdviserKeywordDriven_parallel\0.0.1-SNAPSHOT\AdviserKeywordDriven_parallel-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:00 h
+[INFO] Finished at: 2018-10-31T13:36:59+05:30
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Login_Module" duration-ms="11723" started-at="2019-02-18T14:12:07Z" finished-at="2019-02-18T14:12:19Z">
+    <groups>
+    </groups>
+    <test name="Login_Module_001" duration-ms="11723" started-at="2019-02-18T14:12:07Z" finished-at="2019-02-18T14:12:19Z">
+      <class name="testcases.Login_Module">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext, java.lang.String)[pri:0, instance:testcases.Login_Module@1095f122]" name="beforeSuite" is-config="true" duration-ms="83" started-at="2019-02-18T14:12:07Z" finished-at="2019-02-18T14:12:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@21362712]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method, java.lang.String)[pri:0, instance:testcases.Login_Module@1095f122]" name="beforeMethod" is-config="true" duration-ms="7284" started-at="2019-02-18T14:12:07Z" finished-at="2019-02-18T14:12:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.Login_Module.Login_Module_001() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Login_Module_001()[pri:0, instance:testcases.Login_Module@1095f122]" name="Login_Module_001" duration-ms="4433" started-at="2019-02-18T14:12:14Z" description="Login with a valid user" finished-at="2019-02-18T14:12:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Module_001 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Login_Module@1095f122]" name="tearDown" is-config="true" duration-ms="3" started-at="2019-02-18T14:12:19Z" finished-at="2019-02-18T14:12:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_Module_001 status=SUCCESS method=Login_Module.Login_Module_001()[pri:0, instance:testcases.Login_Module@1095f122] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterSuite(org.testng.ITestContext)[pri:0, instance:testcases.Login_Module@1095f122]" name="afterSuite" is-config="true" duration-ms="415" started-at="2019-02-18T14:12:19Z" finished-at="2019-02-18T14:12:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@21362712]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.Login_Module -->
+    </test> <!-- Login_Module_001 -->
+  </suite> <!-- Login_Module -->
+</testng-results>
