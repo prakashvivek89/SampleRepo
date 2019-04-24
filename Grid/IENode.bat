@@ -1,2 +1,0 @@
-chdir /D C:\Program Files
-java -Dwebdriver.ie.driver="C:\Vivek\WorkSpace\AdviserKeywordDriven_Parallel\drivers\IE11\IEDriverServer.exe" -jar selenium-server-standalone-3.11.0.jar -role node -hub http://192.168.72.68:4444/grid/register/ -port 5557 -browser "browserName=internet explorer"
