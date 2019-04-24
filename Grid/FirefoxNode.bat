@@ -1,2 +1,0 @@
-chdir /D C:\Program Files
-java -Dwebdriver.gecko.driver="C:\Vivek\WorkSpace\AdviserKeywordDriven_Parallel\drivers\Firefox\geckodriver.exe" -jar selenium-server-standalone-3.11.0.jar -role node -hub http://192.168.74.75:4444/grid/register/ -port 5554
